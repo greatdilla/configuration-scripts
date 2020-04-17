@@ -176,4 +176,4 @@ cleanUp
 
 
 # RUN THIS SCRIPT DIRECTLY!
-# bash <(curl https://raw.githubusercontent.com/xxx)
+# bash <(curl https://raw.githubusercontent.com/greatdilla/configuration-scripts/master/initial-configuration.bash)
