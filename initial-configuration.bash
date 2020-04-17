@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 # config: utf-8
 
+#####
+## YOU MAY CUSTOMIZE HERE, MAKE SURE YOU KNOW WHAT YOU'RE DOING
+SSSSHDPORT=1222
+## STOP! NO MORE EDITS BELOW THIS LINE, AS MUCH AS POSSIBLE
+#####
+
 ## text decoration
 WHITE="\033[0;37m"
 BLUE="\033[0;34m"
@@ -160,7 +166,7 @@ function cleanUp() {
     removeSsshdPatch
 }
 
-SSSSHDPORT=1222
+
 SSSSHDPATCH=/tmp/.sshd.patch
 SSSSHDCFG=/etc/ssh/sshd_config
 
